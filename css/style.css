@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+li {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.row {
+    flex-wrap: wrap;
+    display: flex;
+}
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
+}
+.align-between {
+    align-items: space-between;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.w-1 {
+    width: 100%;
+}
+.w-60 {
+    width: 60%;
+}
+.w-40 {
+    width: 40%;
+}
+.w-75{
+    width: 75%;
+}
+body{
+    background-image: url(../images/bgImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100Vh;
+    color: white;
+}
+
+/* header start */
+nav{
+    background-color: rgba(0, 0, 0, 0.54);
+    
+}
+ul .brand img{
+    width: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+ul li{
+    margin: 19px 15px;
+}
+
+/* section  */
+section{
+    width: 100vw;
+    height: 91vh;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+.leftSide , .rightSide{
+    padding: 20px;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 91vh;
+    overflow: auto;
+}
+.song{
+    margin: 10px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.614);
+    color: black;
+}
+.song img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.rightImg{
+    width: 70%;
+    height: 40%;
+    position: relative;
+}
+.rightSide input{
+    width: 80%;
+    margin: 5px 20px 10px 20px;
+}
+input[type="range"] {
+    accent-color: white;
+    height: 2px;
+    cursor: pointer;
+}
+.djLines{
+    position: absolute;
+    bottom: 100%;
+    left: 10%;
+    width: 80%;
+    height: 100px;
+    opacity: 0;
+    transition: all .5s linear;
+}
+.mosterPlay{
+    font-size: 60px;
+    margin: 0 10px;
+}
+h3{
+    margin: 20px 0;
+}
+.mosterPrev , .mosterNext{
+    font-size: 30px;
+}
+.timeing p{
+    font-size: 12px;
+}
